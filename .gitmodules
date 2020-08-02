@@ -13,6 +13,3 @@
 [submodule "@previz-app/livestream"]
 	path = dandelionburdock/livestream
 	url = https://github.com/Previz-app/livestream.git
-[submodule "@tgtgamer/website"]
-	path = tgtgamer/website
-	url = https://github.com/TGTGamer/website.git
