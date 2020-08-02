@@ -16,6 +16,3 @@
 [submodule "@tgtgamer/website"]
 	path = tgtgamer/website
 	url = https://github.com/TGTGamer/website.git
-[submodule "@tgtgamer/tgtgamer"]
-	path = tgtgamer/tgtgamer
-	url = https://github.com/TGTGamer/tgtgamer.git
