@@ -1,0 +1,81 @@
+{
+  "folders": [
+    {
+      "name": "✨ @videndum/smartcloud",
+      "path": "Videndum/smartcloud"
+    },
+    {
+      "name": "🚀 @videndum/smartcloud-webfront",
+      "path": "Videndum/smartcloud/packages/public/webfront"
+    },
+    {
+      "name": "🚀 @videndum/smartcloud-webpanel",
+      "path": "Videndum/smartcloud/packages/public/webpanel"
+    },
+    {
+      "name": "📦 @videndum/smartcloud-discord",
+      "path": "Videndum/smartcloud/packages/containers/discord"
+    },
+    {
+      "name": "📦 @videndum/smartcloud-components",
+      "path": "Videndum/smartcloud/packages/public/components"
+    },
+    {
+      "name": "⚙️ @videndum/smartcloud-login",
+      "path": "Videndum/smartcloud/packages/serverless/login"
+    },
+    {
+      "name": "⚙️ @videndum/github-actions",
+      "path": "Videndum/Universal-GitAction-Workflows"
+    },
+    {
+      "name": "⚙️ @videndum/github-secrets",
+      "path": "Videndum/manage-github-secrets"
+    },
+    {
+      "name": "✨ Node Projects DevContainer",
+      "path": ".devcontainer"
+    }
+  ],
+  "settings": {
+    "peacock.color": "#1857a4",
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#1f6fd0",
+      "activityBar.activeBorder": "#ee90bb",
+      "activityBar.background": "#1f6fd0",
+      "activityBar.foreground": "#e7e7e7",
+      "activityBar.inactiveForeground": "#e7e7e799",
+      "statusBar.background": "#1857a4",
+      "statusBar.border": "#1857a4",
+      "statusBar.foreground": "#e7e7e7",
+      "statusBarItem.hoverBackground": "#1f6fd0",
+      "titleBar.activeBackground": "#1857a4",
+      "titleBar.activeForeground": "#e7e7e7",
+      "titleBar.border": "#1857a4",
+      "titleBar.inactiveBackground": "#1857a499",
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "activityBarBadge.background": "#ee90bb",
+      "activityBarBadge.foreground": "#15202b"
+    },
+    "peacock.remoteColor": "#1857a4",
+    "discord.enabled": true
+  },
+  "extensions": {
+    "recommendations": [
+      "tabnine.tabnine-vscode",
+      "eamodio.gitlens",
+      "yzhang.markdown-all-in-one",
+      "davidanson.vscode-markdownlint",
+      "silvenon.mdx",
+      "aaron-bond.better-comments",
+      "coenraads.bracket-pair-colorizer-2",
+      "oderwat.indent-rainbow",
+      "ms-vsliveshare.vsliveshare",
+      "bierner.github-markdown-preview",
+      "tabnine.tabnine-vscode",
+      "visualstudioexptteam.vscodeintellicode",
+      "leizongmin.node-module-intellisense",
+      "vsls-contrib.spaces"
+    ]
+  }
+}
