@@ -1,10 +1,12 @@
 {
   "folders": [
     {
-      "path": "virtualfashion"
+      "name": "@dnb/virtualfashion",
+      "path": "dandelionburdock/virtualfashion"
     },
     {
-      "path": "livestream"
+      "name": "@previz-app/livestream",
+      "path": "dandelionburdock/livestream"
     }
   ],
   "settings": {
@@ -43,7 +45,11 @@
       "tabnine.tabnine-vscode",
       "visualstudioexptteam.vscodeintellicode",
       "leizongmin.node-module-intellisense",
-      "vsls-contrib.spaces"
+      "vsls-contrib.spaces",
+      "vsls-contrib.gitdoc",
+      "vsls-contrib.gistfs",
+      "codestream.codestream",
+      "ritwickdey.liveserver"
     ]
   }
 }

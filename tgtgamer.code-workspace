@@ -44,7 +44,11 @@
       "tabnine.tabnine-vscode",
       "visualstudioexptteam.vscodeintellicode",
       "leizongmin.node-module-intellisense",
-      "vsls-contrib.spaces"
+      "vsls-contrib.spaces",
+      "vsls-contrib.gitdoc",
+      "vsls-contrib.gistfs",
+      "codestream.codestream",
+      "ritwickdey.liveserver"
     ]
   }
 }
