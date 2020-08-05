@@ -1,15 +1,15 @@
 [submodule "@Videndum/github-secrets"]
-	path = videndum/manage-github-secrets
+	path = Node Development/Videndum/github-secrets
 	url = https://github.com/Videndum/manage-github-secrets.git
 [submodule "@Videndum/github-actions"]
-	path = videndum/Universal-GitAction-Workflows
+	path = Node Development/Videndum/github-actions
 	url = https://github.com/Videndum/Universal-GitAction-Workflows.git
 [submodule "@Videndum/smartcloud"]
-	path = videndum/smartcloud
-	url = https://github.com/Videndum/smartcloud.git
-[submodule "@tgtgamer/tgtgamer"]
-	path = tgtgamer/tgtgamer
-	url = https://github.com/TGTGamer/tgtgamer.git
-[submodule "@tgtgamer/website"]
-	path = tgtgamer/website
+	path = Node Development/Videndum/smartcloud
+	url = https://github.com/Videndum/Smartcloud.git
+[submodule "@TGTGamer/website"]
+	path = Node Development/tgtgamer/website
 	url = https://github.com/TGTGamer/website.git
+[submodule "@TGTGamer/tgtgamer"]
+	path = Node Development/tgtgamer/tgtgamer
+	url = https://github.com/TGTGamer/tgtgamer.git
