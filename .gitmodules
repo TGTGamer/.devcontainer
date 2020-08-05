@@ -7,9 +7,6 @@
 [submodule "@Videndum/smartcloud"]
 	path = Node Development/Videndum/smartcloud
 	url = https://github.com/Videndum/Smartcloud.git
-[submodule "@TGTGamer/website"]
-	path = Node Development/tgtgamer/website
-	url = https://github.com/TGTGamer/website.git
 [submodule "@TGTGamer/tgtgamer"]
 	path = Node Development/tgtgamer/tgtgamer
 	url = https://github.com/TGTGamer/tgtgamer.git
