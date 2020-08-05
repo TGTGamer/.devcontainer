@@ -9,14 +9,11 @@
       "VARIANT": "14"
     }
   },
-
   // Set *default* container specific settings.json values on container create.
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-
   "shutdownAction": "none",
-
   "mounts": [
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
     "source=${env:HOME}${env:USERPROFILE}/.kube,target=/usr/local/share/kube-localhost,type=bind",
@@ -29,39 +26,42 @@
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     // extensions to install
-    "vsls-contrib.codetour",
-    "waderyan.nodejs-extension-pack",
-    "numso.prettier-standard-vscode",
+    "codestream.codestream",
     "ms-azuretools.vscode-docker",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "vsls-contrib.spaces",
-    "codestream.codestream",
+    "numso.prettier-standard-vscode",
+    "vsls-contrib.codetour",
+    "waderyan.nodejs-extension-pack",
     // what i recommend for plugins
-    "tabnine.tabnine-vscode",
-    "eamodio.gitlens",
-    "yzhang.markdown-all-in-one",
-    "davidanson.vscode-markdownlint",
-    "silvenon.mdx",
     "aaron-bond.better-comments",
-    "coenraads.bracket-pair-colorizer-2",
-    "oderwat.indent-rainbow",
-    "ms-vsliveshare.vsliveshare",
+    "bierner.emojisense",
     "bierner.github-markdown-preview",
+    "codestream.codestream",
+    "coenraads.bracket-pair-colorizer-2",
+    "davidanson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "johnpapa.vscode-peacock",
+    "johnstoncode.svn-scm",
+    "karigari.chat",
+    "leizongmin.node-module-intellisense",
+    "ms-vsliveshare.vsliveshare",
+    "oderwat.indent-rainbow",
+    "orta.vscode-jest",
+    "redhat.vscode-yaml",
+    "ritwickdey.liveserver",
+    "silvenon.mdx",
     "tabnine.tabnine-vscode",
     "visualstudioexptteam.vscodeintellicode",
-    "leizongmin.node-module-intellisense",
-    "vsls-contrib.spaces",
-    "vsls-contrib.gitdoc",
     "vsls-contrib.gistfs",
-    "codestream.codestream",
-    "ritwickdey.liveserver"
+    "vsls-contrib.gitdoc",
+    "yzhang.markdown-all-in-one"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [3000],
-
+  "forwardPorts": [
+    3000
+  ],
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "yarn install && git submodule foreach yarn install"
-
   // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
   // "remoteUser": "node"
 }

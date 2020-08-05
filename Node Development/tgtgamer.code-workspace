@@ -31,24 +31,28 @@
   },
   "extensions": {
     "recommendations": [
-      "tabnine.tabnine-vscode",
-      "eamodio.gitlens",
-      "yzhang.markdown-all-in-one",
-      "davidanson.vscode-markdownlint",
-      "silvenon.mdx",
       "aaron-bond.better-comments",
-      "coenraads.bracket-pair-colorizer-2",
-      "oderwat.indent-rainbow",
-      "ms-vsliveshare.vsliveshare",
+      "bierner.emojisense",
       "bierner.github-markdown-preview",
+      "codestream.codestream",
+      "coenraads.bracket-pair-colorizer-2",
+      "davidanson.vscode-markdownlint",
+      "eamodio.gitlens",
+      "johnpapa.vscode-peacock",
+      "johnstoncode.svn-scm",
+      "karigari.chat",
+      "leizongmin.node-module-intellisense",
+      "ms-vsliveshare.vsliveshare",
+      "oderwat.indent-rainbow",
+      "orta.vscode-jest",
+      "redhat.vscode-yaml",
+      "ritwickdey.liveserver",
+      "silvenon.mdx",
       "tabnine.tabnine-vscode",
       "visualstudioexptteam.vscodeintellicode",
-      "leizongmin.node-module-intellisense",
-      "vsls-contrib.spaces",
-      "vsls-contrib.gitdoc",
       "vsls-contrib.gistfs",
-      "codestream.codestream",
-      "ritwickdey.liveserver"
+      "vsls-contrib.gitdoc",
+      "yzhang.markdown-all-in-one"
     ]
   }
 }
