@@ -28,18 +28,39 @@
   },
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
+    // extensions to install
     "vsls-contrib.codetour",
     "waderyan.nodejs-extension-pack",
     "numso.prettier-standard-vscode",
     "ms-azuretools.vscode-docker",
     "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "vsls-contrib.spaces"
+    "vsls-contrib.spaces",
+    "codestream.codestream",
+    // what i recommend for plugins
+    "tabnine.tabnine-vscode",
+    "eamodio.gitlens",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint",
+    "silvenon.mdx",
+    "aaron-bond.better-comments",
+    "coenraads.bracket-pair-colorizer-2",
+    "oderwat.indent-rainbow",
+    "ms-vsliveshare.vsliveshare",
+    "bierner.github-markdown-preview",
+    "tabnine.tabnine-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "leizongmin.node-module-intellisense",
+    "vsls-contrib.spaces",
+    "vsls-contrib.gitdoc",
+    "vsls-contrib.gistfs",
+    "codestream.codestream",
+    "ritwickdey.liveserver"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [3000],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "yarn-recursive --cmd install"
+  "postCreateCommand": "yarn install && git submodule foreach yarn install"
 
   // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
   // "remoteUser": "node"

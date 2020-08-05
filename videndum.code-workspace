@@ -31,10 +31,6 @@
     {
       "name": "⚙️ @videndum/github-secrets",
       "path": "Videndum/manage-github-secrets"
-    },
-    {
-      "name": "✨ Node Projects DevContainer",
-      "path": ".devcontainer"
     }
   ],
   "settings": {
@@ -79,7 +75,9 @@
       "vsls-contrib.gitdoc",
       "vsls-contrib.gistfs",
       "codestream.codestream",
-      "ritwickdey.liveserver"
+      "ritwickdey.liveserver",
+      "orta.vscode-jest",
+      "johnstoncode.svn-scm"
     ]
   }
 }
