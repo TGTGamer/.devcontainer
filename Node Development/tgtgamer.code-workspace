@@ -1,10 +1,8 @@
 {
   "folders": [
     {
-      "path": "TGTGamer\\TGTGamer"
-    },
-    {
-      "path": "TGTGamer\\website"
+      "name": "@TGTGamer/TGTGamer",
+      "path": "TGTGamer/TGTGamer"
     }
   ],
   "settings": {
