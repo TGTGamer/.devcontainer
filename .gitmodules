@@ -7,9 +7,6 @@
 [submodule "@Videndum/smartcloud"]
 	path = videndum/smartcloud
 	url = https://github.com/Videndum/smartcloud.git
-[submodule "@previz-app/livestream"]
-	path = dandelionburdock/livestream
-	url = https://github.com/Previz-app/livestream.git
 [submodule "@tgtgamer/tgtgamer"]
 	path = tgtgamer/tgtgamer
 	url = https://github.com/TGTGamer/tgtgamer.git
