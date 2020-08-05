@@ -1,0 +1,21 @@
+name: Pull Request Management
+
+# This workflow automatically lables PR to ensure that all PR's are correct within the release draft.
+
+on:
+  pull_request: 
+    types:
+      - opened
+      - edited
+      - synchronize
+     
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.9.0"
+        env:
+          GITHUB_TOKEN: "${{ secrets.ACCESS_TOKEN }}"
+          MERGE_LABELS: "automerge"
+          MERGE_REMOVE_LABELS: "automerge"
