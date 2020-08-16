@@ -26,11 +26,11 @@
     },
     {
       "name": "⚙️ @videndum/github-actions",
-      "path": "Videndum/Universal-GitAction-Workflows"
+      "path": "Videndum/github-actions"
     },
     {
       "name": "⚙️ @videndum/github-secrets",
-      "path": "Videndum/manage-github-secrets"
+      "path": "Videndum/github-secrets"
     }
   ],
   "settings": {
@@ -42,12 +42,10 @@
       "activityBar.foreground": "#e7e7e7",
       "activityBar.inactiveForeground": "#e7e7e799",
       "statusBar.background": "#1857a4",
-      "statusBar.border": "#1857a4",
       "statusBar.foreground": "#e7e7e7",
       "statusBarItem.hoverBackground": "#1f6fd0",
       "titleBar.activeBackground": "#1857a4",
       "titleBar.activeForeground": "#e7e7e7",
-      "titleBar.border": "#1857a4",
       "titleBar.inactiveBackground": "#1857a499",
       "titleBar.inactiveForeground": "#e7e7e799",
       "activityBarBadge.background": "#ee90bb",
@@ -70,7 +68,6 @@
       "karigari.chat",
       "leizongmin.node-module-intellisense",
       "ms-vsliveshare.vsliveshare",
-      "oderwat.indent-rainbow",
       "orta.vscode-jest",
       "redhat.vscode-yaml",
       "ritwickdey.liveserver",
@@ -79,7 +76,7 @@
       "visualstudioexptteam.vscodeintellicode",
       "vsls-contrib.gistfs",
       "vsls-contrib.gitdoc",
-      "yzhang.markdown-all-in-one",
+      "yzhang.markdown-all-in-one"
     ]
   }
 }

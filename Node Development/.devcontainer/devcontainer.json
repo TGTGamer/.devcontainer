@@ -17,7 +17,8 @@
   "mounts": [
     "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind",
     "source=${env:HOME}${env:USERPROFILE}/.kube,target=/usr/local/share/kube-localhost,type=bind",
-    "source=${env:HOME}${env:USERPROFILE}/.minikube,target=/usr/local/share/minikube-localhost,type=bind"
+    "source=${env:HOME}${env:USERPROFILE}/.minikube,target=/usr/local/share/minikube-localhost,type=bind",
+    "source=${env:HOME}${env:USERPROFILE}/gpg,target=/root/gpg,type=bind"
   ],
   "remoteEnv": {
     "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}",
@@ -45,7 +46,6 @@
     "karigari.chat",
     "leizongmin.node-module-intellisense",
     "ms-vsliveshare.vsliveshare",
-    "oderwat.indent-rainbow",
     "orta.vscode-jest",
     "redhat.vscode-yaml",
     "ritwickdey.liveserver",
@@ -57,9 +57,7 @@
     "yzhang.markdown-all-in-one"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [
-    3000
-  ],
+  "forwardPorts": [3000],
   // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "yarn install && git submodule foreach yarn install"
   // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
