@@ -5,12 +5,12 @@
       "path": "Videndum/smartcloud"
     },
     {
-      "name": "🚀 @videndum/smartcloud-webfront",
-      "path": "Videndum/smartcloud/packages/public/webfront"
+      "name": "📦 @videndum/smartcloudJS",
+      "path": "Videndum/smartcloud/packages/frameworks/js"
     },
     {
-      "name": "🚀 @videndum/smartcloud-webpanel",
-      "path": "Videndum/smartcloud/packages/public/webpanel"
+      "name": "📦 @videndum/smartcloudCLI",
+      "path": "Videndum/smartcloud/packages/apps/cli"
     },
     {
       "name": "📦 @videndum/smartcloud-discord",
@@ -18,7 +18,15 @@
     },
     {
       "name": "📦 @videndum/smartcloud-components",
-      "path": "Videndum/smartcloud/packages/public/components"
+      "path": "Videndum/smartcloud/packages/frontend/components"
+    },
+    {
+      "name": "🚀 @videndum/smartcloud-webfront",
+      "path": "Videndum/smartcloud/packages/frontend/webfront"
+    },
+    {
+      "name": "🚀 @videndum/smartcloud-webpanel",
+      "path": "Videndum/smartcloud/packages/frontend/webpanel"
     },
     {
       "name": "⚙️ @videndum/smartcloud-login",
@@ -68,7 +76,6 @@
       "karigari.chat",
       "leizongmin.node-module-intellisense",
       "ms-vsliveshare.vsliveshare",
-      "orta.vscode-jest",
       "redhat.vscode-yaml",
       "ritwickdey.liveserver",
       "silvenon.mdx",
