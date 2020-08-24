@@ -1,6 +1,3 @@
-[submodule "@Videndum/github-secrets"]
-	path = Node Development/Videndum/github-secrets
-	url = https://github.com/Videndum/manage-github-secrets.git
 [submodule "@Videndum/smartcloud"]
 	path = Node Development/Videndum/smartcloud
 	url = https://github.com/Videndum/Smartcloud.git
