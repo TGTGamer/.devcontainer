@@ -1,7 +1,7 @@
 {
   "folders": [
     {
-      "name": "✨ @videndum/smartcloud",
+      "name": "🧱 @videndum/smartcloud",
       "path": "Videndum/smartcloud"
     },
     {
@@ -25,8 +25,12 @@
       "path": "Videndum/smartcloud/packages/frontend/webfront"
     },
     {
-      "name": "🚀 @videndum/smartcloud-webpanel",
-      "path": "Videndum/smartcloud/packages/frontend/webpanel"
+      "name": "🚀 @videndum/smartcloud-console",
+      "path": "Videndum/smartcloud/packages/frontend/console"
+    },
+    {
+      "name": "📕 @videndum/smartcloud-webdocs",
+      "path": "Videndum/smartcloud/packages/frontend/docs"
     },
     {
       "name": "⚙️ @videndum/smartcloud-login",
@@ -39,6 +43,22 @@
     {
       "name": "⚙️ @videndum/github-secrets",
       "path": "Videndum/github-secrets"
+    },
+    {
+      "name": "🦸‍♂️ @Videndum/super-labeler-action",
+      "path": "Videndum/super-labeler-action"
+    },
+    {
+      "name": "🦸‍♂️ @TGTGamer/TGTGamer",
+      "path": "tgtgamer/TGTGamer"
+    },
+    {
+      "name": "💰 @TGTGamer/debt-collector",
+      "path": "tgtgamer/debt-collector"
+    },
+    {
+      "name": "🌱 @TGTGamer/devspace",
+      "path": "."
     }
   ],
   "settings": {
