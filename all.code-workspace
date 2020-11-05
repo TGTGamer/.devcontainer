@@ -2,7 +2,7 @@
   "folders": [
     {
       "name": "🧱 @videndum/smartcloud",
-      "path": "Videndum/smartcloud"
+      "path": "Videndum/projects/smartcloud"
     },
     {
       "name": "📦 @videndum/smartcloudJS",
@@ -18,35 +18,35 @@
     },
     {
       "name": "📦 @videndum/smartcloud-components",
-      "path": "Videndum/smartcloud/packages/frontend/components"
+      "path": "Videndum/projects/smartcloud/packages/frontend/components"
     },
     {
       "name": "🚀 @videndum/smartcloud-webfront",
-      "path": "Videndum/smartcloud/packages/frontend/webfront"
+      "path": "Videndum/projects/smartcloud/packages/frontend/webfront"
     },
     {
       "name": "🚀 @videndum/smartcloud-console",
-      "path": "Videndum/smartcloud/packages/frontend/console"
+      "path": "Videndum/projects/smartcloud/packages/frontend/console"
     },
     {
       "name": "📕 @videndum/smartcloud-webdocs",
-      "path": "Videndum/smartcloud/packages/frontend/docs"
+      "path": "Videndum/projects/smartcloud/packages/frontend/docs"
     },
     {
       "name": "⚙️ @videndum/smartcloud-login",
-      "path": "Videndum/smartcloud/packages/serverless/login"
+      "path": "Videndum/projects/smartcloud/packages/serverless/login"
     },
     {
       "name": "⚙️ @videndum/github-actions",
-      "path": "Videndum/github-actions"
+      "path": "Videndum/projects/github-actions"
     },
     {
       "name": "⚙️ @videndum/github-secrets",
-      "path": "Videndum/github-secrets"
+      "path": "Videndum/projects/github-secrets"
     },
     {
       "name": "🦸‍♂️ @Videndum/super-labeler-action",
-      "path": "Videndum/super-labeler-action"
+      "path": "Videndum/projects/super-labeler-action"
     },
     {
       "name": "🦸‍♂️ @TGTGamer/TGTGamer",
