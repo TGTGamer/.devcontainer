@@ -8,6 +8,7 @@ We suggest using this method of GPG key setup to reduce the amount of keys you n
 
 - [Keybase](https://keybase.io/inv/8353caa6be) installed
 - GPG Key configured within Keybase
+- GPG installed on your device ([Windows](https://www.gpg4win.org/) | [Linux](https://gnupg.org/download/) | [macOS](https://gpgtools.org/))
 
 ## Update the GPG Key
 

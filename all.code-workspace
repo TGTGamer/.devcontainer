@@ -6,15 +6,15 @@
     },
     {
       "name": "📦 @videndum/smartcloudJS",
-      "path": "Videndum/smartcloud/packages/frameworks/js"
+      "path": "Videndum/projects/smartcloud/packages/frameworks/js"
     },
     {
       "name": "📦 @videndum/smartcloudCLI",
-      "path": "Videndum/smartcloud/packages/apps/cli"
+      "path": "Videndum/projects/smartcloud/packages/apps/cli"
     },
     {
       "name": "📦 @videndum/smartcloud-discord",
-      "path": "Videndum/smartcloud/packages/containers/discord"
+      "path": "Videndum/projects/smartcloud/packages/containers/discord"
     },
     {
       "name": "📦 @videndum/smartcloud-components",
@@ -37,6 +37,10 @@
       "path": "Videndum/projects/smartcloud/packages/serverless/login"
     },
     {
+      "name": "⚙️ @videndum/utilities",
+      "path": "Videndum/projects/utilities"
+    },
+    {
       "name": "⚙️ @videndum/github-actions",
       "path": "Videndum/projects/github-actions"
     },
@@ -45,8 +49,32 @@
       "path": "Videndum/projects/github-secrets"
     },
     {
+      "name": "⚙️ @Videndum/Convential-PR-Releases",
+      "path": "Videndum/projects/Convential-PR-Releases"
+    },
+    {
       "name": "🦸‍♂️ @Videndum/super-labeler-action",
       "path": "Videndum/projects/super-labeler-action"
+    },
+    {
+      "name": "🔑 @Videndum/vault",
+      "path": "Videndum/projects/vault"
+    },
+    {
+      "name": "⚙️ @tmw-media/API",
+      "path": "tmw.media/projects/API"
+    },
+    {
+      "name": "🚀 @tmw-media/GGRadio-Discord",
+      "path": "tmw.media/projects/GGRadio-Discord"
+    },
+    {
+      "name": "🚀 @tmw-media/GGRadio-Truck-Simulator",
+      "path": "tmw.media/projects/GGRadio-Truck-Simulator"
+    },
+    {
+      "name": "🚀 @tmw-media/GGRadio-Web-Player",
+      "path": "tmw.media/projects/GGRadio-Web-Player"
     },
     {
       "name": "🦸‍♂️ @TGTGamer/TGTGamer",
