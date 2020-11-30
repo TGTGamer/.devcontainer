@@ -4,7 +4,7 @@ Awesome, you found me!
 
 In this document, we are going to show you how to get your development platform up and running quickly, easily and cleanly. It will require a few key products and applications to be downloaded, but once finished will work on any device, or using the NEW github [codespaces](https://github.com/codespaces)!
 
-This method is the best way for every developer to be running the exact same workspace, therefore removing the problems of `it doesnt work for me` or simular. We **REQUIRE** you to use this system for development to reduce the onboarding time for new developers.
+This method is the best way for every developer to be running the exact same workspace, therefore removing the problems of `it doesnt work for me` or simular. We request you to use this system for development to reduce the onboarding time for new developers.
 
 ## What you need
 
@@ -115,7 +115,34 @@ To get started, follow these steps:
 3. Either run the `Remote-Containers: Open Folder in Container` from the command pallet (`f1`) or `Open folder` from the file menu and click the popup which states `Reopen in container`
 4. Clone all repositories to within this directory (Automatically done normally)
    You can do this super quickly by doing `chmod 755 gitclone.sh && ./gitclone.sh` in your terminal
-5. (Optional) `Open workspace` from the file menu and select `.code-workspace`
+5. `Open workspace` from the file menu and select `.code-workspace`
+
+## Working with the Design Service Package
+
+We advise to work on our projects using VSCode and the developer containers because it will automatically configure your workspace to match our development team's workspace. This includes automatically installing the [adobe XD extension for visual studio](https://letsxd.com/vscode). Within this we can create design service packages which use our content from our design teams, within your coding workspace.
+
+### Why Design Service Packages
+
+Design Service Packages are collections of styles, fonts, colours and components. These can then be quickly and easily imported into any coding project, ensuring consistancy across the entire brand. We use them to allow developers to create applications easily using our branding without needing to worry about updates or changes to fonts, colours or components that the design team make.
+
+_Whats included:_
+
+1. Fonts
+2. Colours
+3. Components
+   1. SVG's
+   2. Sound Files
+   3. Video Files
+   4. Designed components (Range of languages)
+
+### Getting started
+
+Our design service package was automatically installed when you cloned this repository, all you need to do is open it within visual studio and it will work within your code.
+
+1. If not using our `.devcontainer` please install the [Adobe XD](https://marketplace.visualstudio.com/items?itemName=Adobe.xd&ssr=false#overview) extension
+2. From the `F1` menu choose `Toggle Adobe XD Panel` or click the `XD` icon in the bottom right of the status bar.
+3. Now click the `Load package` option, and choose the folder within this repository named `dsp`
+4. Use within your code
 
 ## Contributing to our projects
 

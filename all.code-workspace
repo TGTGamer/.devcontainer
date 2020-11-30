@@ -2,87 +2,107 @@
   "folders": [
     {
       "name": "🧱 @videndum/smartcloud",
-      "path": "Videndum/projects/smartcloud"
+      "path": "Videndum\\projects\\smartcloud"
     },
     {
       "name": "📦 @videndum/smartcloudJS",
-      "path": "Videndum/projects/smartcloud/packages/frameworks/js"
+      "path": "Videndum\\projects\\smartcloud\\packages\\frameworks\\js"
     },
     {
       "name": "📦 @videndum/smartcloudCLI",
-      "path": "Videndum/projects/smartcloud/packages/apps/cli"
+      "path": "Videndum\\projects\\smartcloud\\packages\\apps\\cli"
     },
     {
       "name": "📦 @videndum/smartcloud-discord",
-      "path": "Videndum/projects/smartcloud/packages/containers/discord"
+      "path": "Videndum\\projects\\smartcloud\\packages\\containers\\discord"
     },
     {
       "name": "📦 @videndum/smartcloud-components",
-      "path": "Videndum/projects/smartcloud/packages/frontend/components"
+      "path": "Videndum\\projects\\smartcloud\\packages\\frontend\\components"
     },
     {
       "name": "🚀 @videndum/smartcloud-webfront",
-      "path": "Videndum/projects/smartcloud/packages/frontend/webfront"
+      "path": "Videndum\\projects\\smartcloud\\packages\\frontend\\webfront"
     },
     {
       "name": "🚀 @videndum/smartcloud-console",
-      "path": "Videndum/projects/smartcloud/packages/frontend/console"
+      "path": "Videndum\\projects\\smartcloud\\packages\\frontend\\console"
     },
     {
       "name": "📕 @videndum/smartcloud-webdocs",
-      "path": "Videndum/projects/smartcloud/packages/frontend/docs"
+      "path": "Videndum\\projects\\smartcloud\\packages\\frontend\\docs"
     },
     {
       "name": "⚙️ @videndum/smartcloud-login",
-      "path": "Videndum/projects/smartcloud/packages/serverless/login"
+      "path": "Videndum\\projects\\smartcloud\\packages\\serverless\\login"
     },
     {
       "name": "⚙️ @videndum/utilities",
-      "path": "Videndum/projects/utilities"
+      "path": "Videndum\\projects\\utilities"
     },
     {
-      "name": "⚙️ @videndum/github-actions",
-      "path": "Videndum/projects/github-actions"
+      "name": "⚙️ @videndum/action-masterminds",
+      "path": "Videndum\\projects\\action-masterminds"
     },
     {
-      "name": "⚙️ @videndum/github-secrets",
-      "path": "Videndum/projects/github-secrets"
+      "name": "⚙️ @videndum/workflow-mastermind",
+      "path": "Videndum\\projects\\action-masterminds\\packages\\installer"
     },
     {
-      "name": "⚙️ @Videndum/Convential-PR-Releases",
-      "path": "Videndum/projects/Convential-PR-Releases"
+      "name": "⚙️ @videndum/variable-mastermind",
+      "path": "Videndum\\projects\\action-masterminds\\packages\\variable-mastermind"
     },
     {
-      "name": "🦸‍♂️ @Videndum/super-labeler-action",
-      "path": "Videndum/projects/super-labeler-action"
+      "name": "⚙️ @Videndum/release-mastermind",
+      "path": "Videndum\\projects\\action-masterminds\\packages\\release-mastermind"
+    },
+    {
+      "name": "🦸‍♂️ @Videndum/label-mastermind",
+      "path": "Videndum\\projects\\action-masterminds\\packages\\label-mastermind"
     },
     {
       "name": "🔑 @Videndum/vault",
-      "path": "Videndum/projects/vault"
+      "path": "Videndum\\projects\\vault"
     },
     {
       "name": "⚙️ @tmw-media/API",
-      "path": "tmw.media/projects/API"
+      "path": "tmw.media\\projects\\API"
     },
     {
       "name": "🚀 @tmw-media/GGRadio-Discord",
-      "path": "tmw.media/projects/GGRadio-Discord"
+      "path": "tmw.media\\projects\\GGRadio-Discord"
     },
     {
       "name": "🚀 @tmw-media/GGRadio-Truck-Simulator",
-      "path": "tmw.media/projects/GGRadio-Truck-Simulator"
+      "path": "tmw.media\\projects\\GGRadio-Truck-Simulator"
     },
     {
       "name": "🚀 @tmw-media/GGRadio-Web-Player",
-      "path": "tmw.media/projects/GGRadio-Web-Player"
+      "path": "tmw.media\\projects\\GGRadio-Web-Player"
+    },
+    {
+      "name": "🚀 @tmw-media/GGRadio-LiquidSoap",
+      "path": "tmw.media\\projects\\GGRadio-LiquidSoap"
     },
     {
       "name": "🦸‍♂️ @TGTGamer/TGTGamer",
-      "path": "tgtgamer/TGTGamer"
+      "path": "tgtgamer\\TGTGamer"
     },
     {
       "name": "💰 @TGTGamer/debt-collector",
-      "path": "tgtgamer/debt-collector"
+      "path": "tgtgamer\\debt-collector"
+    },
+    {
+      "name": "💡 @TGTGamer/lightwaves",
+      "path": "tgtgamer\\lightwaves"
+    },
+    {
+      "name": "🔍 @TGTGamer/Inquirer.js",
+      "path": "tgtgamer\\Inquirer.js"
+    },
+    {
+      "name": "🌱 @tmw.media/.devcontainer",
+      "path": "tmw.media"
     },
     {
       "name": "🌱 @TGTGamer/devspace",
@@ -108,30 +128,33 @@
       "activityBarBadge.foreground": "#15202b"
     },
     "peacock.remoteColor": "#1857a4",
-    "discord.enabled": true
+    "discord.enabled": true,
+    "xd.lastPackage": "/d:/Repositories/devspace"
   },
   "extensions": {
     "recommendations": [
+      "adobe.xd",
       "aaron-bond.better-comments",
-      "bierner.emojisense",
-      "bierner.github-markdown-preview",
-      "codestream.codestream",
       "coenraads.bracket-pair-colorizer-2",
-      "davidanson.vscode-markdownlint",
+      "vsls-contrib.codetour",
+      "icrawl.discord-vscode",
+      "ms-azuretools.vscode-docker",
+      "bierner.github-markdown-preview",
       "eamodio.gitlens",
-      "johnpapa.vscode-peacock",
-      "johnstoncode.svn-scm",
-      "karigari.chat",
+      "hashicorp.terraform",
+      "wholroyd.hcl",
+      "yzhang.markdown-all-in-one",
+      "davidanson.vscode-markdownlint",
+      "pkief.material-icon-theme",
+      "softwaredotcom.music-time",
       "leizongmin.node-module-intellisense",
-      "ms-vsliveshare.vsliveshare",
+      "johnpapa.vscode-peacock",
+      "platformio.platformio-ide",
+      "ms-vscode-remote.remote-containers",
+      "ms-vscode-remote.remote-ssh",
+      "ms-vscode-remote.vscode-remote-extensionpack",
       "redhat.vscode-yaml",
-      "ritwickdey.liveserver",
-      "silvenon.mdx",
-      "tabnine.tabnine-vscode",
-      "visualstudioexptteam.vscodeintellicode",
-      "vsls-contrib.gistfs",
-      "vsls-contrib.gitdoc",
-      "yzhang.markdown-all-in-one"
+      "visualstudioexptteam.vscodeintellicode"
     ]
   }
 }
